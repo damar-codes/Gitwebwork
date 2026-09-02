@@ -1,0 +1,19 @@
+Formatting Tags:
+
+================
+
+=>It is used to format the text
+
+<i></i>  ==> It will convert text into italic font
+<u></u>  ==>It will underline text
+<b></b>  ==>I will give bold text
+<mark></mark>  ==>It will highlight the text color
+<sub></sub>  =>It will display particular content in power
+<s></s>  ==> It will striked out the text
+
+
+==>for voice readers/recorders we will use these tags
+<strong></strong>  ==>bold text
+<em></em>  ==>emphasize text(italic font)
+<ins></ins>  ==>underline the text
+<del></del>  ==>strikes the text
