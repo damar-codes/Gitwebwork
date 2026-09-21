@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        h2{
+            font-family: cursive;
+        }
+        body{
+            background-color: aliceblue;
+            background-image: url();
+        }
+        .Mahal{
+            border-style: solid;
+            background-color: black;
+            color: white;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .TM{
+            border-style: solid;
+            
+            margin-left: 380px;
+            border-radius: 20px;
+        }
+        .Taj{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .card {
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            padding: 28px 25px 35px;
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 1px;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+        .card img {
+            width: 400px;
+            height: 240px;
+            border-radius: 15px;
+        }
+        .destinations {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            width: 80%;
+            margin: auto;
+        }
+        .card1 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            padding: 28px 25px 35px;
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 1px;
+            background-color: white;
+            border-radius: 20px;   
+        }
+        .jai{
+                width: 300px;
+            
+            border-radius: 15px;
+        }
+     /* ------------------------------
+   Travel Banner
+------------------------------ */
+
+.travel-banner {
+    position: relative;
+
+    width: calc(100% - 40px);
+    height: 390px;
+
+    margin: 0 auto 30px;
+
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+/* Background Image */
+
+.travel-banner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* Dark overlay */
+
+.travel-banner::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.15);
+}
+
+
+/* Banner Text */
+
+.banner-content {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+    text-align: center;
+
+    color: white;
+
+    width: 100%;
+}
+
+.banner-content h2 {
+    font-size: 55px;
+    font-weight: 700;
+
+    margin-bottom: 45px;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content p {
+    font-size: 28px;
+    font-weight: 500;
+
+    word-spacing: 10px;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+    </style>
+</head>
+<body>
+
+    <div class="Mahal">
+    <h1 align="center">EXPLORE INDIA</h1>
+    <h4 align="center">Discover beautiful destinations.</h4>
+    </div>
+
+    <img class="TM" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1280px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="" width="500px">
+    
+    <h1 class="Taj" align="center">
+        Taj Mahal
+    </h1>
+    
+    <p align="center">Agra, Uttar Pradesh, India</p>
+    
+    <section class="destinations">
+    
+    <div class="card">
+        <span>
+        <img id="hello" src="https://nomllers.com/wp-content/uploads/2025/03/alexey-turenkov-bWJiSZjIgTM-unsplash.webp" width="200px">
+        <h2>Goa</h2>
+        <p>Enjoy beautiful beaches <br>
+            and amazing sunsets.</p>
+            </span>
+    </div>
+    
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80" alt="">
+        <h2>Kerala</h2>
+        <p>Explore backwaters,<br>
+            nature and greenery.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80" alt="">
+        <h2>Manali</h2>
+        <p>Experience beautiful <br>
+            mountains and valleys.</p>
+    </div>
+
+    <div class="card1">
+        <img class="jai" src="https://upload.wikimedia.org/wikipedia/commons/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original">
+        <h2>Jaipur</h2>
+        <p>Explore the Pink City and <br>
+            its historic forts.</p>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section  class="travel-banner">
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1800&q=85"
+             alt="Taj Mahal">
+
+        <div class="banner-content">
+            <h2>WHY SHOULD YOU TRAVEL?</h2>
+
+            <p>
+                Explore · Experience · Enjoy
+            </p>
+        </div>
+
+    </section>
+</body>
+</html>
